@@ -13,7 +13,7 @@ def home():
 @app.get("/health")
 def health():
     return jsonify({
-        "status": "ok"
+        "status": "unhealthy"
     })
 
 def create_app():
